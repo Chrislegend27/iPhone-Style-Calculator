@@ -105,5 +105,6 @@ body {
     height: 150px;
     left:500px;
     font-size: 18px;
-    border:0.5px solid white;
+    border:0.5px solid white;   
+    padding:10px;
 }
