@@ -7,7 +7,7 @@ var newEquation = false
 const triviaText = document.querySelector(".fun-fact p")
 
 
-axios.get('http://numbersapi.com/random/trivia')
+axios.get('https://numbersapi.com/random/trivia')
     .then(response => {
         console.log(response.data);
         // Handle the response data
